@@ -446,6 +446,33 @@
 					}
 				}
 			]
+		},
+		{
+			"root": "pages/miaoji",
+			"pages": [
+				{
+					"path" : "pubsub/pubsub",
+					"style" : 
+					{
+						"navigationBarTitleText" : "订阅消息管理",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path": "pubsub/add",
+					"style": {
+						"navigationBarTitleText": "新增订阅消息",
+						"navigationStyle": "default"
+					}
+				},
+				{
+					"path": "pubsub/edit",
+					"style": {
+						"navigationBarTitleText": "编辑订阅消息",
+						"navigationStyle": "default"
+					}
+				}
+			]
 		}
 	],
 	"globalStyle": {
